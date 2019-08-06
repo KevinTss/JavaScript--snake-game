@@ -1,0 +1,31 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+    margin: 1%;
+    padding: 0;
+}
+header{
+    background-color: aqua;
+    color: aliceblue;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+footer{
+    background-color: aqua;
+    color: aliceblue;
+    text-align: center;
+    font-size: 1em;
+    padding: 2em;
+
+}
